@@ -76,13 +76,13 @@ header {
     color: #E5E7EB;
 }
 
-.menu-wrapper a {
+.menu-wrapper a{
     color: #E5E7EB;
     text-decoration: none;
 
 }
 
-.menu-wrapper li:hover {
+.menu-wrapper a:hover {
     color: #3697d8;
 }
 
