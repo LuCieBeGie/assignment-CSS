@@ -1,3 +1,3 @@
 # project
 
- https://luciebegie.github.io/project/
+ https://luciebegie.github.io/assignment-CSS/
