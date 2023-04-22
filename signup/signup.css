@@ -29,10 +29,7 @@ body {
 }
 
 .logo {
-    margin: 0  auto;
-}
-
-.logo img {
+    margin: 0 auto;
     width: 17rem;
     border-radius: 11px;
 }
