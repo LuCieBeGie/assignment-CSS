@@ -49,7 +49,6 @@ body {
   text-decoration: none;
   padding: 10px 5px;
   display: inline-block;
-  
   width: 100%;
   text-align: center;
   transition: all 0.5s;
@@ -58,12 +57,13 @@ body {
 .flex-nav a:hover {
   background: rgba(0, 0, 0, 0.3);
 }
+
 .flex-nav li {
   list-style: none;
 }
+
 .hero {
   display: flex;
-
   justify-content: space-around;
   padding: 1rem 3rem;
 }
@@ -71,6 +71,7 @@ body {
 .heroImage {
   flex-basis: 400px;
 }
+
 .heroImage img {
   width: 500px;
 }
@@ -98,6 +99,11 @@ body {
   cursor: pointer;
 }
 
+.details__button {
+  text-decoration: none;
+  color: white;
+}
+
 .cardsSection {
   display: flex;
   flex-direction: column;
@@ -109,11 +115,9 @@ body {
 
 .cards-container {
   display: flex;
-
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
-
   margin: 0 auto;
 }
 
@@ -121,7 +125,6 @@ body {
   width: 200px;
   padding: 2rem 1rem;
   border: none;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,7 +145,6 @@ body {
   flex-direction: column;
   align-items: flex-end;
   color: #1f2937;
-
   margin: 0 auto;
 }
 
@@ -166,7 +168,6 @@ body {
 
 .inventation {
   display: flex;
-
   justify-content: space-around;
   align-items: center;
 }
@@ -176,7 +177,6 @@ body {
   color: #f9faf8;
   font-size: 15px;
   border: 0.15em solid #f9faf8;
-
   letter-spacing: 0.05em;
   overflow: hidden;
   border-radius: 7px;
@@ -192,7 +192,6 @@ body {
 
 .footerContainer {
   width: 100%;
-
   padding: 70px 30px 20px;
 }
 
@@ -200,6 +199,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .social a {
   text-decoration: none;
   font-size: 25px;
@@ -220,10 +220,12 @@ body {
   background-color: #1f2937;
   transition: 0.5s;
 }
+
 .social a:hover i {
   color: #f9faf8;
   transition: 0.5s;
 }
+
 .footerNav {
   margin: 30px 0;
 }
@@ -233,6 +235,7 @@ body {
   justify-content: center;
   list-style: none;
 }
+
 .footerNav ul li a {
   color: #f9faf8;
   text-decoration: none;
@@ -254,9 +257,11 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .partners ul li {
   list-style: none;
 }
+
 .partners ul li img {
   width: 60px;
   margin: 3px;
@@ -277,9 +282,11 @@ body {
     display: flex;
     flex-direction: column;
   }
+
   .headerLogo {
     align-self: normal;
   }
+
   .flex-nav ul {
     display: flex;
     flex-direction: column;
@@ -296,6 +303,7 @@ body {
   .footerNav ul {
     flex-direction: column;
   }
+
   .footerNav ul li {
     width: 100%;
     text-align: center;
@@ -308,13 +316,16 @@ body {
     display: flex;
     flex-direction: column;
   }
+
   .headerLogo {
     align-self: normal;
   }
+
   .flex-nav ul {
     display: flex;
     flex-direction: column;
   }
+
   .hero {
     display: flex;
     flex-direction: column;
